@@ -1,7 +1,7 @@
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'super-rentals',
-    #This will differ depending on what you named YOUR app.
+    modulePrefix: 'omozan',
+
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
@@ -13,10 +13,12 @@ module.exports = function(environment) {
     },
 
     firebase: {
-      apiKey: 'YOUR-API-KEY-HERE',
-      authDomain: 'YOUR-FIREBASE-APP.firebaseapp.com',
-      databaseURL: 'https://YOUR-FIREBASE-APP.firebaseio.com',
-      storageBucket: 'YOUR-FIREBASE-APP.appspot.com'
+      apiKey: "AIzaSyBsBoHQUwdsd5JZRlrGXVn-5iuGX5azX6g",
+      authDomain: "omozan-5acda.firebaseapp.com",
+      databaseURL: "https://omozan-5acda.firebaseio.com",
+      projectId: "omozan-5acda",
+      storageBucket: "omozan-5acda.appspot.com",
+      messagingSenderId: "29019805257"
     },
 
 
