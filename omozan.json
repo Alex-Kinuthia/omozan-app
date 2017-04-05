@@ -1,0 +1,17 @@
+{ "omozans": [{
+    "name": "Madiba Mandela",
+    "contact": "070236732",
+    "price": "Ksh.52365",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Crane_estate_(5).jpg"
+  }, {
+    "name": "Bryson Brave",
+    "contact": "072742747",
+    "price": "Ksh.773476",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Alfonso_13_Highrise_Tegucigalpa.jpg"
+  }, {
+    "name": "Winner NAisula",
+    "contact": "073547522",
+    "price": "Ksh.66457525",
+    "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
+  }]
+}
