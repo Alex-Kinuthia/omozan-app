@@ -1,8 +1,7 @@
-/* eslint-env node */
-
 module.exports = function(environment) {
   var ENV = {
-    modulePrefix: 'omozan',
+    modulePrefix: 'super-rentals',
+    #This will differ depending on what you named YOUR app.
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
@@ -10,12 +9,16 @@ module.exports = function(environment) {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
-      },
-      EXTEND_PROTOTYPES: {
-        // Prevent Ember Data from overriding Date.parse.
-        Date: false
       }
     },
+
+    firebase: {
+      apiKey: 'YOUR-API-KEY-HERE',
+      authDomain: 'YOUR-FIREBASE-APP.firebaseapp.com',
+      databaseURL: 'https://YOUR-FIREBASE-APP.firebaseio.com',
+      storageBucket: 'YOUR-FIREBASE-APP.appspot.com'
+    },
+
 
     APP: {
       // Here you can pass flags/options to your application instance
