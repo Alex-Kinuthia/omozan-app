@@ -1,5 +1,24 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-{{welcome-page}}
-{{!-- Feel free to remove this! --}}
+<div class="jumbotron">
+  <h1>Omozan</h1>
+  <nav class="navbar navbar-inverse navbar-static-top">
+    <div class="container-fluid">
+      <ul class="nav navbar-nav">
+        <li>{{#link-to 'index'}}<button class="btn btn-default">HOME</button>{{/link-to}}</li>
+      <li>  {{#link-to 'about'}}<button class="btn btn-default">ABOUT</button>{{/link-to}}</li>
+        <li>{{#link-to 'contact'}}<button class="btn btn-default">CONTACT</button>{{/link-to}}</li>
+      </ul>
+      <button class="btn btn-success pull-right">New Post</button>
+    </div>
+  </nav>
+</div>
+<!-- <hr>
+<footer>
+  <div class="jumbotron">
+    <div class="col-md-4">
+      <h2>About us</h2>
+    </div>
+  </div>
+</footer> -->
+
 
 {{outlet}}
