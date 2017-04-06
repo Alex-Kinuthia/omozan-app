@@ -1,7 +1,8 @@
+/* eslint-env node */
+
 module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'omozan',
-
     environment: environment,
     rootURL: '/',
     locationType: 'auto',
@@ -9,18 +10,12 @@ module.exports = function(environment) {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
         // e.g. 'with-controller': true
+      },
+      EXTEND_PROTOTYPES: {
+        // Prevent Ember Data from overriding Date.parse.
+        Date: false
       }
     },
-
-    firebase: {
-      apiKey: "AIzaSyBsBoHQUwdsd5JZRlrGXVn-5iuGX5azX6g",
-      authDomain: "omozan-5acda.firebaseapp.com",
-      databaseURL: "https://omozan-5acda.firebaseio.com",
-      projectId: "omozan-5acda",
-      storageBucket: "omozan-5acda.appspot.com",
-      messagingSenderId: "29019805257"
-    },
-
 
     APP: {
       // Here you can pass flags/options to your application instance

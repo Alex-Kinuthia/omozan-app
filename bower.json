@@ -1,5 +1,7 @@
 {
   "name": "omozan",
   "dependencies": {
+    "moment": "^2.18.1",
+    "jquery": "^3.2.1"
   }
 }
